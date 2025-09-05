@@ -30,7 +30,7 @@ This creates a stable and manageable way to forward traffic from an IP accessibl
 Run the following command as root or with `sudo` to install the Socat Manager on your Debian-based or RHEL-based system. The script will automatically install `socat` if it's not present.
 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/YourGitHubUsername/socat-manager/main/install_socat_manager.sh)
+bash <(curl -sL https://raw.githubusercontent.com/Yeliaoyuan/socat-manager/main/install_socat_manager.sh)
 ```
 **Note:** Please replace `YourGitHubUsername` with your actual GitHub username once you've created the repository.
 
@@ -111,6 +111,3 @@ If you wish to remove the Socat Manager:
     sudo systemctl daemon-reload
     ```
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
